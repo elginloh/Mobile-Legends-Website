@@ -1,0 +1,189 @@
+/* CSS Document */
+body
+{
+	margin: 0;
+    padding: 0;
+	font-family: 'Goldman', cursive;
+}
+/*HEADER*/
+#header
+{
+	width: 100%;
+	height: 70px;
+	background-color: #111;
+	position: fixed;
+}
+
+#logo
+{
+	width: 6%;
+	height: 70px;
+	border-right: 2px solid #4B4B4B;
+	float: left;
+}
+
+#logo img
+{
+	width: 125px;
+	height: 70px;
+}
+
+#nav
+{
+	width: 93%;
+	height: 70px;
+	float: left;
+	overflow: hidden;
+}
+
+#nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+	margin: 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav a:hover {
+  border-bottom: 2px solid #41C6FF;
+}
+
+/*video*/
+.body1
+{
+	width: 100%;
+	height: 600px;
+	padding-top: 70px;
+	background-color: #333;
+}
+
+.content1
+{
+	width: 53%;
+	height: 600px;
+	float: left;
+}
+
+.content2
+{
+	width: 47%;
+	height: 400px;
+	float: left;
+	font-size: 40px;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.content2 p
+{
+	font-size: 12px;	
+}
+
+.content2 button
+{
+	background-color: #CF2B2E;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.content1 video
+{
+	width: 1066px;
+}
+
+/*news*/
+.news
+{
+	width: 100%;
+	height: 450px;
+	background-color: red;
+	padding-top: 50px;
+}
+
+.newscontent
+{
+	width: 80%;
+	height: 400px;
+	background-color: blue;
+	margin: 0 auto;
+}
+
+.textheader
+{
+	width: 100%;
+	height: 100px;
+}
+
+.textnews
+{
+	width: 50%;
+	height: 70px;
+	float: left;
+	background-color: green;
+	font-style: italic;
+	font-size: 25px;
+	padding-top: 30px;
+}
+
+.newspage
+{
+	width: 50%;
+	height: 60px;
+	float: left;
+	background-color: grey;
+	font-style: italic;
+	font-size: 15px;
+	padding-top: 40px;
+	text-align: right;
+	color: cyan;
+}
+
+.newslink
+{
+	width: 100%;
+	height: 300px;
+}
+
+.news1
+{
+	width: 31%;
+	height: 270px;
+	background-color: green;
+	float: left;
+	margin: 1%;
+	background: url("img/newstourn.jpg");
+	opacity: 60%;
+}
+
+.news2
+{
+	width: 32%;
+	height: 270px;
+	background-color: green;
+	float: left;
+	margin: 1%;
+}
+
+.news3
+{
+	width: 31%;
+	height: 270px;
+	background-color: green;
+	float: left;
+	margin: 1%;
+}
+
+
+
+
