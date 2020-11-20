@@ -179,9 +179,10 @@ body
 
 .champcont
 {
-	width: 40%;
+	width: 38%;
 	height: 800px;
 	float: left;
+	padding-left: 2%
 }
 
 .champcontbox
