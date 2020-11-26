@@ -90,7 +90,7 @@ body
 {
 	width: 100%;
 	height: 500px;
-	background-color: #96449c;
+	background-image: radial-gradient(purple 30%, #5e0380 70%);
 	padding-top: 100px;
 }
 
@@ -161,13 +161,13 @@ body
 {
 	width: 100%;
 	height: 800px;
+	background-image: radial-gradient(#00c1c4 35%, #009c9e 65%);
 }
 
 .champ
 {
 	width: 60%;
 	height: 800px;
-	background-color: #FFF;
 	float: left;
 }
 
@@ -341,12 +341,14 @@ footer img
 	{
 		width: 100%;
 		height: auto;
+		background-image: radial-gradient(#00c1c4 35%, #009c9e 65%);
 	}
 	
 	.champ
 	{
 		width: 100%;
 		height: auto;
+		background-color: #fff;
 	}
 
 	.champ img
@@ -360,7 +362,9 @@ footer img
 		width: 100%;
 		height: auto;
 		text-align: center;
-		background-color: #fff;
+		padding: 0px;
+		background-image: radial-gradient(#00c1c4 35%, #009c9e 65%);
+		
 	}
 
 	.champcontbox
@@ -371,7 +375,6 @@ footer img
 		margin: 0;
 		padding: 0;
 		padding-bottom: 10px;
-		background-color: #fff;
 	}
 
 

@@ -1,0 +1,186 @@
+body
+{
+	margin: 0;
+    padding: 0;
+	font-family: 'Goldman', cursive;
+}
+
+/*HEADER*/
+#header
+{
+	width: 100%;
+	height: 70px;
+	background-color: #111;
+}
+
+#nav img
+{
+	float: left;
+	width: 125px;
+	height: 70px;
+
+}
+
+#nav
+{
+	width: 100%;
+	height: 70px;
+
+}
+
+.navs {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav .navs:hover {
+  border-bottom: 1px solid #41C6FF;
+}
+
+/* body1 (Champions) */
+.body1
+{
+    width: 100%;
+    height: auto;
+    background-color: #b1b2bc;
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.title
+{
+    width: 65%;
+    height: 250px;
+    background-color: red;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.title b
+{
+    font-size: 60px;
+}
+
+#myBtnContainer
+{
+    width: 65%;
+    height: auto;
+    background-color: blue;
+}
+
+.championcontainer
+{
+    width: 65%;
+    height: auto;
+    background-color: green;
+    overflow: hidden;
+}
+
+.filterDiv 
+{
+    float: left;
+    background-color: #002561;
+    color: #ffffff;
+    width: 19%;
+    line-height: auto;
+    text-align: center;
+    margin: 2px;
+    font-size: 30px;
+    display: none;  /* Hidden by default */
+}
+
+.filterDiv img
+{
+      width: 100%;
+      height: 300px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+.show
+{
+    display: block;
+}
+
+/*FOOTER*/
+footer
+{
+	width: 100%;
+	height: 250px;
+	background-color: #111;
+	text-align: center;
+	color: #666;
+	padding-top: 10px;
+}
+
+footer img
+{
+	width: 150px;
+	height: 110px;
+}
+
+.fa 
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+  
+.fa:hover 
+{
+	opacity: 0.7;
+}
+
+.fa-facebook
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-twitter
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-youtube 
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-instagram 
+{
+	background: #666;
+	color: #111;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	footer
+	{
+		width: 100%;
+		height: auto;
+		padding-bottom: 5px;
+	}   
+}

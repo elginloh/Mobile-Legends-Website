@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="champion.css" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id = "header">
+		<div id = "nav">
+			<a href="index.html"><img src="img/MLlogo.png"></a>
+			<a href="index.html" class="navs">HOME</a>
+			<a href="news.html" class="navs">NEWS</a>
+			<a href="champion.html" class="navs">CHAMPIONS</a>
+		</div>
+    </div>
+    <div class = "body1">
+        <div class="title">
+            <p>
+                <b>NEED A HERO?</b><br><br>
+                Mobile legends Features an international casts of powerful heroes with captivating
+                personalities and backstories. Explore the full roster below.
+            </p>
+        </div>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('tank')"> Tank</button>
+            <button class="btn" onclick="filterSelection('marksman')"> Marksman</button>
+            <button class="btn" onclick="filterSelection('mage')"> Mage</button>
+            <button class="btn" onclick="filterSelection('fighter')"> Fighter</button>
+            <button class="btn" onclick="filterSelection('support')"> Support</button>
+        </div>
+        <div class="championcontainer">
+            <div class="filterDiv tank"><img src="img/akai.png">AKAI</div>
+            <div class="filterDiv fighter"><img src="img/aldous.png">ALDOUS</div>
+            <div class="filterDiv mage"><img src="img/alice.png">ALICE</div>
+        </div>
+    </div>
+	<footer>
+		<img src="img/logo.png"><br>
+		<a href="#" class="fa fa-facebook"></a> 
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a><br>
+		<p>© 2015-2020 Moonton, Inc. Moonton, MOBILE LEGENDS:BANG BANG and<br> any associated logos are trademarks, service marks, and/or registered<br> trademarks of Moonton, Inc.</p>
+	</footer>
+</body>
+<script src="script.js"></script>
+</html>

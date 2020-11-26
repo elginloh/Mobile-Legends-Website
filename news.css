@@ -1,0 +1,401 @@
+body
+{
+	margin: 0;
+    padding: 0;
+	font-family: 'Goldman', cursive;
+}
+
+/*HEADER*/
+#header
+{
+	width: 100%;
+	height: 70px;
+	background-color: #111;
+}
+
+#nav img
+{
+	float: left;
+	width: 125px;
+	height: 70px;
+
+}
+
+#nav
+{
+	width: 100%;
+	height: 70px;
+
+}
+
+.navs {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav .navs:hover {
+  border-bottom: 1px solid #41C6FF;
+}
+
+/* featured image */
+.body1
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+	text-align: center;
+}
+
+.body1 img
+{
+	width: 100%;
+}
+
+.ML
+{
+	display: block;
+}
+
+.centered 
+{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 60px;
+	color: #fff;
+}
+
+/* Featured Content*/
+.body1content
+{
+	width: 100%;
+	height: 600px;
+	background-color: #efefef;
+	border-top: 2px solid #333;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.gamedets
+{
+	width: 50%;
+	height: 400px;
+	background-color: #b1b2bc;
+}
+
+.title
+{
+	display: flex;
+	width: 100%;
+	height: 75px;
+	font-size: 23px;
+	color: #FFF;
+	justify-content: center;
+	align-items: center;
+}
+
+.informations	
+{
+	width: 100%;
+	height: 325px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 2px solid #fff;
+}
+
+.info
+{
+	display: flex;
+	width: 20%;
+	height: 325px;
+	text-align: center;
+	justify-content: center;
+	font-size: 17px;
+
+}
+
+.info b
+{
+	font-size: 18px;
+}
+
+
+.prizepool
+{
+	width: 30%;
+	height: 400px;
+	background-color: #b1b2bc;
+}
+
+.prizemoney
+{
+	display: flex;
+	width: 100%;
+	height: 325px;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	border-top: 2px solid #fff;
+}
+
+/* NEWS */
+.newstitle
+{
+	width: 100%;
+	height: 60px;
+	font-size: 60px;
+	text-align: center;
+	background-color: #efefef;
+	border-top: 2px solid black;
+}
+
+.body2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 750px;
+	background-color: #efefef;
+}
+
+.body3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 750px;
+	background-color: #efefef;
+}
+
+.news
+{
+	width: 45%;
+	height: 650px;
+	background-color: #b1b2bc;
+}
+
+.newsimage
+{
+	width: 100%;
+	height: 400px;
+}
+
+.news img
+{
+	width: 100%;
+	height: 400px;	
+}
+
+.newsinfo
+{
+	display: flex;
+	width: 92%;
+	height: 250px;
+	align-items: center;
+	color: #000;
+	padding: 0 4%;
+}
+
+.newsinfo b
+{
+	font-size: 25px;
+	color: #c89b3c;
+}
+
+
+/*FOOTER*/
+footer
+{
+	width: 100%;
+	height: 250px;
+	background-color: #111;
+	text-align: center;
+	color: #666;
+	padding-top: 10px;
+}
+
+footer img
+{
+	width: 150px;
+	height: 110px;
+}
+
+.fa 
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+  
+.fa:hover 
+{
+	opacity: 0.7;
+}
+
+.fa-facebook
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-twitter
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-youtube 
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-instagram 
+{
+	background: #666;
+	color: #111;
+}
+
+
+@media only screen and (max-width: 1450px)
+{
+	.title
+	{
+		font-size: 20px;
+	}
+
+	.info
+	{
+		font-size: 12px;
+	}
+
+	.info b 
+	{
+		font-size: 17px;
+	}
+
+	.prizemoney
+	{
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	footer
+	{
+		width: 100%;
+		height: auto;
+		padding-bottom: 5px;
+	}
+
+	.centered
+	{
+		font-size: 30px;
+	}
+
+	.body1content
+	{
+		width: 100%;
+		height: auto;
+		background-color: #efefef;
+		border-top: 2px solid #333;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.gamedets
+	{
+		width: 100%;
+		height: auto;
+	}
+	
+	.info
+	{
+		font-size: 14px;
+	}
+
+	.info b
+	{
+		font-size: 18px;
+	}
+
+
+
+	.prizepool
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	.prizemoney
+	{
+		font-size: 60px;
+	}
+
+	.body2
+	{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: auto;
+		padding: 0 5%;
+	}
+
+	.body3
+	{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: auto;
+		padding: 0 5%;
+	}
+
+	.news
+	{
+		border-bottom: 20px solid #efefef;
+	}
+
+	#news1
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	#news2
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	#news3
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	#news4
+	{
+		width: 100%;
+		height: auto;
+	}
+}
