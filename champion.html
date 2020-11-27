@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-<link rel="stylesheet" href="champion.css" type="text/css">
+<link rel="stylesheet" href="css/normalize.css" type="text/css">
+<link rel="stylesheet" href="css/champion.css" type="text/css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,7 +12,7 @@
 <body>
 	<div id = "header">
 		<div id = "nav">
-			<a href="index.html"><img src="img/MLlogo.png"></a>
+			<a href="index.html"><img src="img/MLlogo.png" alt="MLLOGO"></a>
 			<a href="index.html" class="navs">HOME</a>
 			<a href="news.html" class="navs">NEWS</a>
 			<a href="champion.html" class="navs">CHAMPIONS</a>
@@ -28,57 +29,58 @@
         <div id="myBtnContainer">
             <button class="btn active" onclick="filterSelection('all')"> All</button>
             <button class="btn" onclick="filterSelection('tank')"> Tank</button>
-            <button class="btn" onclick="filterSelection('marksman')"> Marksman</button>
+            <button class="btn" onclick="filterSelection('marksman')"> ADC</button>
             <button class="btn" onclick="filterSelection('mage')"> Mage</button>
             <button class="btn" onclick="filterSelection('fighter')"> Fighter</button>
             <button class="btn" onclick="filterSelection('support')"> Support</button>
         </div>
         <div class="championcontainer">
-            <div class="filterDiv tank"><img src="img/akai.png">AKAI</div>
-            <div class="filterDiv fighter"><img src="img/aldous.png">ALDOUS</div>
-            <div class="filterDiv mage"><img src="img/alice.png">ALICE</div>
-            <div class="filterDiv fighter"><img src="img/alpha.png">ALPHA</div>
-            <div class="filterDiv support"><img src="img/angela.png">ANGELA</div>
-            <div class="filterDiv tank"><img src="img/atlas.png">ATLAS</div>
-            <div class="filterDiv marksman"><img src="img/bruno.png">BRUNO</div>
-            <div class="filterDiv fighter"><img src="img/badang.png">BADANG</div>
-            <div class="filterDiv mage support"><img src="img/cecillion.png">CECILLION</div>
-            <div class="filterDiv marksman"><img src="img/granger.png">GRANGER</div>
-            <div class="filterDiv mage support"><img src="img/faramis.png">FARAMIS</div>
-            <div class="filterDiv fighter tank"><img src="img/balmond.png">BALMOND</div>
-            <div class="filterDiv fighter tank"><img src="img/uranus.png">URANUS</div>
-            <div class="filterDiv mage"><img src="img/lunox.png">LUNOX</div>
-            <div class="filterDiv fighter"><img src="img/khaleed.png">KHALEED</div>
-            <div class="filterDiv marksman"><img src="img/layla.png">LAYLA</div>
-            <div class="filterDiv marksman support"><img src="img/popolkupa.png">POPOL KUPA</div>
-            <div class="filterDiv marksman mage"><img src="img/kimmy.png">KIMMY</div>
-            <div class="filterDiv fighter tank"><img src="img/ruby.png">RUBY</div>
-            <div class="filterDiv mage support"><img src="img/selena.png">SELENA</div>
-            <div class="filterDiv fighter"><img src="img/chou.png">CHOU</div>
-            <div class="filterDiv mage tank"><img src="img/esmeralda.png">ESMERALDA</div>
-            <div class="filterDiv marksman"><img src="img/karrie.png">KARRIE</div>
-            <div class="filterDiv support"><img src="img/rafaela.png">RAFAELA</div>
-            <div class="filterDiv tank"><img src="img/belerick.png">BELERICK</div>
-            <div class="filterDiv fighter tank"><img src="img/masha.png">MASHA</div>
-            <div class="filterDiv marksman"><img src="img/wanwan.png">WAN WAN</div>
-            <div class="filterDiv fighter tank"><img src="img/hilda.png">HILDA</div>
-            <div class="filterDiv support"><img src="img/nana.png">NANA</div>
-            <div class="filterDiv marksman"><img src="img/claude.png">CLAUDE</div>
-            <div class="filterDiv marksman"><img src="img/miya.png">MIYA</div>
-            <div class="filterDiv mage"><img src="img/kagura.png">KAGURA</div>
-            <div class="filterDiv mage"><img src="img/pharsa.png">PHARSA</div>
-            <div class="filterDiv marksman"><img src="img/lesley.png">LESLEY</div>
-            <div class="filterDiv tank"><img src="img/johnson.png">JOHNSON</div>
+            <div class="filterDiv tank"><img src="img/akai.png" alt="akai">AKAI</div>
+            <div class="filterDiv fighter"><img src="img/aldous.png" alt="aldous">ALDOUS</div>
+            <div class="filterDiv mage"><img src="img/alice.png" alt="alice">ALICE</div>
+            <div class="filterDiv fighter"><img src="img/alpha.png" alt="alpha">ALPHA</div>
+            <div class="filterDiv support"><img src="img/angela.png" alt="angela">ANGELA</div>
+            <div class="filterDiv tank"><img src="img/atlas.png" alt="atlas">ATLAS</div>
+            <div class="filterDiv marksman"><img src="img/bruno.png" alt="bruno">BRUNO</div>
+            <div class="filterDiv fighter"><img src="img/badang.png" alt="badang">BADANG</div>
+            <div class="filterDiv mage support"><img src="img/cecillion.png" alt="cecilion">CECILLION</div>
+            <div class="filterDiv marksman"><img src="img/granger.png" alt="granger">GRANGER</div>
+            <div class="filterDiv mage support"><img src="img/faramis.png" alt="faramis">FARAMIS</div>
+            <div class="filterDiv fighter tank"><img src="img/balmond.png" alt="balmond">BALMOND</div>
+            <div class="filterDiv fighter tank"><img src="img/uranus.png" alt="uranus">URANUS</div>
+            <div class="filterDiv mage"><img src="img/lunox.png" alt="lunox">LUNOX</div>
+            <div class="filterDiv fighter"><img src="img/khaleed.png" alt="khaleed">KHALEED</div>
+            <div class="filterDiv marksman"><img src="img/layla.png" alt="layla">LAYLA</div>
+            <div class="filterDiv marksman support"><img src="img/popolkupa.png" alt="popol and kupa">POPOL KUPA</div>
+            <div class="filterDiv marksman mage"><img src="img/kimmy.png" alt="kimmy">KIMMY</div>
+            <div class="filterDiv fighter tank"><img src="img/ruby.png" alt="ruby">RUBY</div>
+            <div class="filterDiv mage support"><img src="img/selena.png" alt="selena">SELENA</div>
+            <div class="filterDiv fighter"><img src="img/chou.png" alt="chou">CHOU</div>
+            <div class="filterDiv mage tank"><img src="img/esmeralda.png" alt="esmeralda">ESMERALDA</div>
+            <div class="filterDiv marksman"><img src="img/karrie.png" alt="karrie">KARRIE</div>
+            <div class="filterDiv support"><img src="img/rafaela.png" alt="rafaela">RAFAELA</div>
+            <div class="filterDiv tank"><img src="img/belerick.png" alt="belerick">BELERICK</div>
+            <div class="filterDiv fighter tank"><img src="img/masha.png" alt="masha">MASHA</div>
+            <div class="filterDiv marksman"><img src="img/wanwan.png" alt="wanwan">WAN WAN</div>
+            <div class="filterDiv fighter tank"><img src="img/hilda.png" alt="hilda">HILDA</div>
+            <div class="filterDiv support"><img src="img/nana.png" alt="nana">NANA</div>
+            <div class="filterDiv marksman"><img src="img/claude.png" alt="claude">CLAUDE</div>
+            <div class="filterDiv marksman"><img src="img/miya.png" alt="miya">MIYA</div>
+            <div class="filterDiv mage"><img src="img/kagura.png" alt="kagura">KAGURA</div>
+            <div class="filterDiv mage"><img src="img/pharsa.png" alt="pharsa">PHARSA</div>
+            <div class="filterDiv marksman"><img src="img/lesley.png" alt="lesley">LESLEY</div>
+            <div class="filterDiv tank"><img src="img/johnson.png" alt="johnson">JOHNSON</div>
         </div>
     </div>
 	<footer>
-		<img src="img/logo.png"><br>
+		<img src="img/logo.png" alt="logo"><br>
 		<a href="#" class="fa fa-facebook"></a> 
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-youtube"></a>
 		<a href="#" class="fa fa-instagram"></a><br>
 		<p>© 2015-2020 Moonton, Inc. Moonton, MOBILE LEGENDS:BANG BANG and<br> any associated logos are trademarks, service marks, and/or registered<br> trademarks of Moonton, Inc.</p>
-	</footer>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
